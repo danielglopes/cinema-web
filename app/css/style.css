@@ -1,0 +1,55 @@
+/* css/styles.css */
+
+/* Estilo para o Header */
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+/* Estilo para o Rodapé */
+footer a {
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ffc107;
+  /* Cor de destaque ao passar o mouse */
+}
+
+/* Estilo para o Formulário */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  form {
+    padding: 0 15px;
+  }
+}
+
+/* Fundo claro para a seção adicional */
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+/* Carrossel de Imagens */
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Garantir que o main ocupe o espaço flexível */
+main {
+  flex: 1 0 auto;
+}
+
+/* Ajustes adicionais para responsividade e estética */
+body {
+  background-color: #f8f9fa;
+}
+
+h1,
+h2 {
+  color: #343a40;
+}
